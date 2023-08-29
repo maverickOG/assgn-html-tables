@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Timetable</title>
+<link rel="stylesheet" href="style.css">
+<style>
+
+body
+{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: none;
+  text-align: center;
+}
+
+.timetable
+{
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.timetable th, .timetable td
+{
+  border: 0px solid black;
+  padding: 15px;
+}
+
+.timetable th
+{
+  text-align: center;
+  background-color: #b83939;
+  color: white;
+  font-size: 16px;
+}
+
+.timetable td
+{
+  text-align: left;
+  font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+  <h1><i>TIME TABLE 📖</i></h1>
+  <img src="https://kalvium.com/wp-content/uploads/2023/04/Kalvium-Logo-SVG.svg" alt="kalvium" width="200" height="200">
+  <div id="sl"> <img src="https://stackblitz.com/storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMXM3Qnc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--a772c37c3adf4a223484e191c0a95c1818c8ab7a/Screenshot%202023-08-28%20123856.png"></div>
+    <div class="timetable">
+    <div id="student">Student</div>
+    <div id="course">Courses</div>
+    <table class="content">
+    <table>
+    <thead>
+      <tr id="header">
+        <th>Day/Period</th>
+        <th>I<br>9am-10am</th>
+        <th>II<br>10am-11am</th>
+        <th>III<br>11:15am-12:15pm</th>
+        <th>IV<br>12:15pm-1:15pm</th>
+        <th><br>1:15pm-2:00pm</th>
+        <th>V<br>2:00pm-5:00pm</th>
+        <th>VI<br>5:30pm-6:30pm</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr id="monday">
+        <td>Monday</td>
+        <td>Subject2</td>
+        <td>Subject4</td>
+        <td>Subject6</td>
+        <td>Subject8</td>
+        <th rowspan="6" id="lunch">L<br>U<br>N<br>C<br>H</th>
+        <td>Subject1</td>
+        <td>Subject5</td>
+      </tr>
+      <tr id="tuesday">
+        <td>Tuesday</td>
+        <td>Subject8</td>
+        <td>Subject2</td>
+        <td>Subject6</td>
+        <td>Subject3</td>
+        <td>Subject4</td>
+        <td>Subject7</td>
+      </tr>
+      <tr id="wednesday">
+        <td>Wednesday</td>
+        <td>Subject4</td>
+        <td>Subject5</td>
+        <td>Subject3</td>
+        <td>Subject1</td>
+        <td>Subject2</td>
+        <td>Subject6</td>
+      </tr>
+      <tr id="thursday">
+        <td>Thursday</td>
+        <td>Subject1</td>
+        <td>Subject2</td>
+        <td>Subject6</td>
+        <td>Subject5</td>
+        <td>Subject3</td>
+        <td>Subject8</td>
+      </tr>
+      <tr id="friday">
+        <td>Friday</td>
+        <td>Subject8</td>
+        <td>Subject4</td>
+        <td>Subject5</td>
+        <td>Subject6</td>
+        <td>Subject2</td>
+        <td>Subject1</td>
+      </tr>
+      <tr id="saturday">
+        <td>Saturday</td>
+        <td>Subject2</td>
+        <td>Subject6</td>
+        <td>Subject4</td>
+        <td>Subject3</td>
+        <td>Subject7</td>
+        <td>Subject7</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</body>
+</html>
