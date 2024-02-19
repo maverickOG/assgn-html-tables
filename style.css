@@ -1,15 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
-body
-{
-  font-family: 'Poppins', sans-serif;
-  background-color: rgb(254, 216, 216);
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fbe4e3;
   margin: 0;
   padding: 0;
 }
 
-.timetable
-{
+.timetable {
   width: 500px;
   margin: 0 auto;
   text-align: center;
@@ -18,110 +16,96 @@ body
   margin-right: 50%;
 }
 
-.timetable th, .timetable td
-{
+.timetable th,
+.timetable td {
   border: 0px;
   padding: 0px;
 }
 
-.timetable th
-{
+.timetable th {
   text-align: center;
   color: white;
 }
 
-h1
-{
-    align-items: center;
-    position: absolute;
-    right: 40%;
-    top: 20%;
-    transform: translate(-50%,-50%);
+h1 {
+  align-items: center;
+  position: absolute;
+  right: 35%;
+  top: 20%;
+  transform: translate(-50%, -50%);
 }
 
 .timetable tr:nth-child(even) {
-    background-color: grey;
-  }
-  
-div
-{
-    position: absolute;
-    top: 50%;
-    left: 42%;
-    transform: translate(-50%, -50%);
-}  
-  
-img
-{
-    position: absolute;
-    top: 0;
-    left: 10%;
+  background-color: grey;
 }
 
-#lunch
-{
-    background-color: white;
-    color: black;
+div {
+  position: absolute;
+  top: 50%;
+  left: 42%;
+  transform: translate(-50%, -50%);
 }
 
-#student, #course
-{
-  font-family: 'Open Sans', sans-serif;
+img {
+  position: absolute;
+  top: -38px;
+  left: 10%;
+}
+
+#lunch {
+  background-color: white;
+  color: black;
+}
+
+#student,
+#course {
+  font-family: "Open Sans", sans-serif;
   font-size: 1.2em;
   font-weight: bolder;
   color: rgb(226, 17, 17);
   padding-top: 2%;
 }
 
-#student
-{
-    position: absolute;
-    top: -42%;
-    left: 160%;
+#student {
+  position: absolute;
+  top: -42%;
+  left: 160%;
 }
 
-#course
-{
-    position: absolute;
-    top: -42%;
-    left: 180%;
+#course {
+  position: absolute;
+  top: -42%;
+  left: 180%;
 }
 
-#monday
-{
-    background-color: white;
+#monday {
+  background-color: white;
 }
 
-#tuesday
-{
-    background-color: lightgray;
+#tuesday {
+  background-color: lightgray;
 }
 
-#wednesday
-{
-    background-color: white;
+#wednesday {
+  background-color: white;
 }
 
-#thursday
-{
-    background-color: lightgray;
+#thursday {
+  background-color: lightgray;
 }
 
-#friday
-{
-    background-color: white;
+#friday {
+  background-color: white;
 }
 
-#saturday
-{
-    background-color: lightgray;
+#saturday {
+  background-color: lightgray;
 }
 
-#sl img
-{
-    height: 40px;
-    width: 40px;
-    padding-top: 20px;
-    top: -380px;
-    left: 450px;
+#sl img {
+  height: 40px;
+  width: 40px;
+  padding-top: 20px;
+  top: -380px;
+  left: 450px;
 }
